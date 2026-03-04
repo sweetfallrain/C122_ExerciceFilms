@@ -20,134 +20,134 @@
 // ============================================================
 
 const films = [
-  {
-    titre: "Inception",
-    realisateur: "Christopher Nolan",
-    annee: 2010,
-    note: 8.8,
-    genre: "Science-Fiction",
-    poster: "affiches/inception.jpg"
-  },
-  {
-    titre: "Cats",
-    realisateur: "Tom Hooper",
-    annee: 2019,
-    note: 2.8,
-    genre: "Comédie",
-    poster: "affiches/cats.jpg"
-  },
-  {
-    titre: "Gladiator",
-    realisateur: "Ridley Scott",
-    annee: 2000,
-    note: 8.5,
-    genre: "Historique",
-    poster: "affiches/gladiator.jpg"
-  },
-  {
-    titre: "Spider-Man: No Way Home",
-    realisateur: "Jon Watts",
-    annee: 2021,
-    note: 8.2,
-    genre: "Action",
-    poster: "affiches/spider-man.jpg"
-  },
-  {
-    titre: "Parasite",
-    realisateur: "Bong Joon-ho",
-    annee: 2019,
-    note: 8.5,
-    genre: "Thriller",
-    poster: "affiches/parasite.jpg"
-  },
-  {
-    titre: "Morbius",
-    realisateur: "Daniel Espinosa",
-    annee: 2022,
-    note: 5.2,
-    genre: "Action",
-    poster: "affiches/morbius.jpg"
-  },
-  {
-    titre: "The Dark Knight",
-    realisateur: "Christopher Nolan",
-    annee: 2008,
-    note: 9.0,
-    genre: "Action",
-    poster: "affiches/dark-knight.jpg"
-  },
-  {
-    titre: "Le Loup de Wall Street",
-    realisateur: "Martin Scorsese",
-    annee: 2013,
-    note: 8.2,
-    genre: "Comédie",
-    poster: "affiches/loup-wall-street.jpg"
-  },
-  {
-    titre: "Madame Web",
-    realisateur: "S.J. Clarkson",
-    annee: 2024,
-    note: 3.9,
-    genre: "Action",
-    poster: "affiches/madame-web.jpg"
-  },
-  {
-    titre: "Django Unchained",
-    realisateur: "Quentin Tarantino",
-    annee: 2012,
-    note: 8.4,
-    genre: "Western",
-    poster: "affiches/django.jpg"
-  },
-  {
-    titre: "Intouchables",
-    realisateur: "Nakache & Toledano",
-    annee: 2011,
-    note: 8.5,
-    genre: "Comédie",
-    poster: "affiches/intouchables.jpg"
-  },
-  {
-    titre: "Borderlands",
-    realisateur: "Eli Roth",
-    annee: 2024,
-    note: 3.0,
-    genre: "Action",
-    poster: "affiches/borderlands.jpg"
-  },
-  {
-    titre: "Joker",
-    realisateur: "Todd Phillips",
-    annee: 2019,
-    note: 8.4,
-    genre: "Drame",
-    poster: "affiches/joker.jpg"
-  },
-  {
-    titre: "Interstellar",
-    realisateur: "Christopher Nolan",
-    annee: 2014,
-    note: 8.7,
-    genre: "Science-Fiction",
-    poster: "affiches/interstellar.jpg"
-  },
-  {
-    titre: "Avengers: Endgame",
-    realisateur: "Russo Brothers",
-    annee: 2019,
-    note: 8.4,
-    genre: "Action",
-    poster: "affiches/avengers-endgame.jpg"
-  },
-  {
-    titre: "Shutter Island",
-    realisateur: "Martin Scorsese",
-    annee: 2010,
-    note: 8.2,
-    genre: "Thriller",
-    poster: "affiches/shutter-island.jpg"
-  }
+    {
+        titre: "Inception",
+        realisateur: "Christopher Nolan",
+        annee: 2010,
+        note: 8.8,
+        genre: "Science-Fiction",
+        poster: "affiches/inception.jpg"
+    },
+    {
+        titre: "Cats",
+        realisateur: "Tom Hooper",
+        annee: 2019,
+        note: 2.8,
+        genre: "Comédie",
+        poster: "affiches/cats.jpg"
+    },
+    {
+        titre: "Gladiator",
+        realisateur: "Ridley Scott",
+        annee: 2000,
+        note: 8.5,
+        genre: "Historique",
+        poster: "affiches/gladiator.jpg"
+    },
+    {
+        titre: "Spider-Man: No Way Home",
+        realisateur: "Jon Watts",
+        annee: 2021,
+        note: 8.2,
+        genre: "Action",
+        poster: "affiches/spider-man.jpg"
+    },
+    {
+        titre: "Parasite",
+        realisateur: "Bong Joon-ho",
+        annee: 2019,
+        note: 8.5,
+        genre: "Thriller",
+        poster: "affiches/parasite.jpg"
+    },
+    {
+        titre: "Morbius",
+        realisateur: "Daniel Espinosa",
+        annee: 2022,
+        note: 5.2,
+        genre: "Action",
+        poster: "affiches/morbius.jpg"
+    },
+    {
+        titre: "The Dark Knight",
+        realisateur: "Christopher Nolan",
+        annee: 2008,
+        note: 9.0,
+        genre: "Action",
+        poster: "affiches/dark-knight.jpg"
+    },
+    {
+        titre: "Le Loup de Wall Street",
+        realisateur: "Martin Scorsese",
+        annee: 2013,
+        note: 8.2,
+        genre: "Comédie",
+        poster: "affiches/loup-wall-street.jpg"
+    },
+    {
+        titre: "Madame Web",
+        realisateur: "S.J. Clarkson",
+        annee: 2024,
+        note: 3.9,
+        genre: "Action",
+        poster: "affiches/madame-web.jpg"
+    },
+    {
+        titre: "Django Unchained",
+        realisateur: "Quentin Tarantino",
+        annee: 2012,
+        note: 8.4,
+        genre: "Western",
+        poster: "affiches/django.jpg"
+    },
+    {
+        titre: "Intouchables",
+        realisateur: "Nakache & Toledano",
+        annee: 2011,
+        note: 8.5,
+        genre: "Comédie",
+        poster: "affiches/intouchables.jpg"
+    },
+    {
+        titre: "Borderlands",
+        realisateur: "Eli Roth",
+        annee: 2024,
+        note: 3.0,
+        genre: "Action",
+        poster: "affiches/borderlands.jpg"
+    },
+    {
+        titre: "Joker",
+        realisateur: "Todd Phillips",
+        annee: 2019,
+        note: 8.4,
+        genre: "Drame",
+        poster: "affiches/joker.jpg"
+    },
+    {
+        titre: "Interstellar",
+        realisateur: "Christopher Nolan",
+        annee: 2014,
+        note: 8.7,
+        genre: "Science-Fiction",
+        poster: "affiches/interstellar.jpg"
+    },
+    {
+        titre: "Avengers: Endgame",
+        realisateur: "Russo Brothers",
+        annee: 2019,
+        note: 8.4,
+        genre: "Action",
+        poster: "affiches/avengers-endgame.jpg"
+    },
+    {
+        titre: "Shutter Island",
+        realisateur: "Martin Scorsese",
+        annee: 2010,
+        note: 8.2,
+        genre: "Thriller",
+        poster: "affiches/shutter-island.jpg"
+    }
 ];
 
 
@@ -163,10 +163,23 @@ const films = [
  * @param {Object[]} liste - Le tableau de films à afficher
  */
 function afficherFilmsConsole(liste) {
-  // TODO : console.log le nombre de films
-  // TODO : for...of → pour chaque film :
-  //   - if/else : note >= 8.5 → "★★★", >= 7 → "★★", sinon "★"
-  //   - console.log avec template literal
+    // console.log le nombre de films
+    console.log("Nombre de films :" + liste.length);
+
+    // for...of → pour chaque film :
+    //   - if/else : note >= 8.5 → "★★★", >= 7 → "★★", sinon "★"
+    //   - console.log avec template literal
+    for (const film of liste) {
+        let etoiles;
+        if (film.note >= 8.5) {
+            etoiles = "★★★";
+        } else if (film.note >= 7) {
+            etoiles = "★★";
+        } else {
+            etoiles = "★";
+        }
+        console.log(`${etoiles} ${film.titre} (${film.annee})`);
+    }
 }
 
 afficherFilmsConsole(films);
@@ -185,7 +198,8 @@ afficherFilmsConsole(films);
  * @returns {Object[]} Un NOUVEAU tableau trié
  */
 function trierParNote(liste) {
-  // TODO : return [...liste].sort(...)
+    // return [...liste].sort(...)
+    return [...liste].sort((a, b) => a.note - b.note);
 }
 
 console.log("\n--- Triés par note ---");
@@ -206,8 +220,15 @@ afficherFilmsConsole(trierParNote(films));
  * @returns {Object[]} Les films correspondants
  */
 function rechercherFilm(liste, terme) {
-  // TODO : si pas de terme → retourner la liste entière
-  // TODO : filter → titre OU réalisateur contient le terme
+    // TODO : si pas de terme → retourner la liste entière
+    if(terme.length < 1) {
+        return [];
+    }
+    // TODO : filter → titre OU réalisateur contient le terme
+    terme = terme.toLowerCase();
+    return liste.filter((film) =>
+        film.realisateur.toLowerCase().includes(terme) ||
+        film.titre.toLowerCase().includes(terme));
 }
 
 console.log("\n--- Recherche 'nolan' ---");
@@ -226,8 +247,8 @@ afficherFilmsConsole(rechercherFilm(films, "nolan"));
  * @returns {string} Le HTML de la carte
  */
 function creerCarteFilm(film) {
-  // TODO : retourner un template literal avec le HTML
-  // Voir la carte d'exemple commentée dans index.html
+    // TODO : retourner un template literal avec le HTML
+    // Voir la carte d'exemple commentée dans index.html
 }
 
 /**
@@ -236,9 +257,9 @@ function creerCarteFilm(film) {
  * @param {Object[]} liste - Le tableau de films à afficher
  */
 function afficherFilmsHTML(liste) {
-  // TODO : sélectionner #films-container
-  // TODO : si liste vide → message "Aucun film trouvé"
-  // TODO : sinon → forEach pour construire le HTML
+    // TODO : sélectionner #films-container
+    // TODO : si liste vide → message "Aucun film trouvé"
+    // TODO : sinon → forEach pour construire le HTML
 }
 
 
@@ -251,8 +272,8 @@ function afficherFilmsHTML(liste) {
  * Rafraîchit l'affichage : recherche → tri → affichage HTML.
  */
 function rafraichir() {
-  // TODO : lire la valeur de #recherche
-  // TODO : chaîner rechercherFilm → trierParNote → afficherFilmsHTML
+    // TODO : lire la valeur de #recherche
+    // TODO : chaîner rechercherFilm → trierParNote → afficherFilmsHTML
 }
 
 // TODO : addEventListener "input" sur #recherche → rafraichir
